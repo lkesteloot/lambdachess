@@ -1,0 +1,15 @@
+{
+  "name": "lambdachess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lawrence Kesteloot <lk@teamten.com> (https://www.teamten.com/lawrence/)",
+  "license": "MIT",
+  "devDependencies": {
+    "snowpack": "^3.8.8",
+    "typescript": "^4.4.3"
+  }
+}
