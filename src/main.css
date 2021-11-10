@@ -1,0 +1,31 @@
+
+:root {
+    --square-size: 64px;
+}
+
+.rank {
+    display: flex;
+}
+
+.square {
+    display: block;
+    width: var(--square-size);
+    height: var(--square-size);
+    font-size: var(--square-size);
+    line-height: var(--square-size);
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.square-light {
+    background-color: #bbb;
+}
+
+.square-dark {
+     background-color: #999;
+}
+
+.square-selected {
+    background-color: #b44 !important;
+}
